@@ -2,16 +2,15 @@ function scuberGreetingForFeet(num) {
   let ride
   if (num <= 400) {
   ride = 199
-  return ('This one is on me!')
+  return 'This one is on me!';
   }
-  else if (num > 2000) {
+  else if (1999 < num && num < 2500) {
     ride = 2001
-    return ('I will gladly take your thirty bucks.')
+    return 'I will gladly take your thirty bucks.';
   
   }
-  else if (num > 2500) {
-    ride = 2501
-    return ('No can do.')
+  else {
+    return 'No can do.';
   }
 }
  
